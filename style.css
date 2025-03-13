@@ -1,0 +1,16 @@
+@charset "utf-8";*{
+  padding: 0;
+  margin: 0;
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+.navbar{
+  background-image: url(images/background.jpeg) !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.navbar-nav a{
+  color: #7dd940 !important;
+}
