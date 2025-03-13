@@ -6,11 +6,34 @@
   font-weight: 500;
   font-style: normal;
 }
+
+body {
+  background-color: #FEFAE0 !important;
+}
+
 .navbar{
-  background-image: url(images/background.jpeg) !important;
+  background-color: #606C38;
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .navbar-nav a{
-  color: #7dd940 !important;
+  color: #FEFAE0 !important;
 }
+span.navbar-toggler-icon::after {
+  color: #FEFAE0;
+}
+section h1{
+  color: #FEFAE0 !important;
+}
+.bg-custom{
+  background-image: url(images/pozadina.jpg);
+  height: 100vh;
+}
+.bg-custom1{
+  color: #FEFAE0 !important;
+  background-image: url(images/bukva.jpg);
+  height: 20vh;
+  opacity: 120%;
+}
+
