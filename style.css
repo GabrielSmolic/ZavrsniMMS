@@ -6,25 +6,33 @@
   font-weight: 500;
   font-style: normal;
 }
-
 body {
   background-color: #FEFAE0 !important;
 }
-
 .navbar{
   background-color: #606C38;
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 .navbar-nav a{
   color: #FEFAE0 !important;
+}
+.navbar-nav a:hover{
+  color: #e0d7b8ff !important;
+}
+nav img{
+  padding-right: 20px;
+  padding-left: 20px;
+}
+nav ul li{
+  padding-right: 20px;
 }
 span.navbar-toggler-icon::after {
   color: #FEFAE0;
 }
 section h1{
   color: #FEFAE0 !important;
+  text-shadow:1px 1px 10px black;
 }
 .bg-custom{
   background-image: url(images/pozadina.jpg);
@@ -34,6 +42,9 @@ section h1{
   color: #FEFAE0 !important;
   background-image: url(images/bukva.jpg);
   height: 20vh;
-  opacity: 120%;
 }
+section ul li i{
+  text-shadow:1px 1px 10px black !important;
+}
+
 
