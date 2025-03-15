@@ -1,14 +1,6 @@
-document.addEventListener("DOMContentLoaded", function () {
-    const elements = document.querySelectorAll(".fade-in");
-
-    function checkScroll() {
-        elements.forEach(el => {
-            if (el.getBoundingClientRect().top < window.innerHeight * 0.9) {
-                el.classList.add("visible");
-            }
-        });
-    }
-
-    window.addEventListener("scroll", checkScroll);
-    checkScroll();
-});
+document.querySelectorAll('.carousel').forEach((carousel) => {
+    carousel.addEventListener('slid.bs.carousel', (event) => {
+      window.scrollTo({ top: window.scrollY, behavior: 'instant' });
+    });
+  });
+  
