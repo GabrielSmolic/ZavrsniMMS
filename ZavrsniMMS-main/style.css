@@ -1,0 +1,97 @@
+@charset "utf-8";*{
+  padding: 0;
+  margin: 0;
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #606C38; 
+}
+::-webkit-scrollbar-thumb {
+  background: #e0d7b8ff; 
+}
+body {
+  background-color: #FEFAE0 !important;
+}
+.navbar{
+  background-color: #606C38;
+}
+.navbar-nav a{
+  color: #FEFAE0 !important;
+}
+.navbar-nav a:hover{
+  color: #e0d7b8ff !important;
+}
+nav img{
+  padding-right: 20px;
+  padding-left: 20px;
+}
+nav ul li{
+  padding-right: 20px;
+}
+span.navbar-toggler-icon::after {
+  color: #FEFAE0;
+}
+.navbar-collapse ul li{
+  padding-left: 20px;
+}
+section h1{
+  color: #FEFAE0 !important;
+  text-shadow:1px 1px 10px black;
+}
+.bg-custom{
+  background-image: url(images/pozadina.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg-custom1{
+  color: #FEFAE0 !important;
+  background-image: url(images/bukva.jpg);
+  height: 22vh;
+}
+.bg-custom2{
+  color: #FEFAE0 !important;
+  padding-left: 20px;
+  text-shadow:1px 1px 10px black;
+  background-image: url(images/povijest.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90vh;
+}
+.Povijest{
+  font-size: 40pt;
+}
+.float-right{
+  border-radius: 30px;
+  height: 30vh !important;
+  float: right !important;
+}
+.container1{
+  padding-top: 20px;
+}
+section ul li i{
+  text-shadow:1px 1px 10px black !important;
+}
+footer{
+  background-color: #606C38;
+  color: #FEFAE0 !important;
+}
+
+@media (max-width: 768px) {
+  .bg-custom2 {
+    height: auto !important;
+    padding: 20px 0;
+  }
+  .float-right {
+    height: auto !important; 
+    max-width: 90%;
+  }
+}
+
+
