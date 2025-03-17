@@ -6,8 +6,26 @@
   font-weight: 500;
   font-style: normal;
 }
-body {
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #606C38; 
+}
+::-webkit-scrollbar-thumb {
+  background: #e0d7b8ff; 
+}
+html, body {
+  overflow-x: hidden;
+  width: 100%;
   background-color: #FEFAE0 !important;
+}
+.container {
+  max-width: 100%;
+  overflow: hidden;
+}
+.row {
+  margin: 0;
 }
 .navbar{
   background-color: #606C38;
@@ -31,13 +49,15 @@ span.navbar-toggler-icon::after {
 .navbar-collapse ul li{
   padding-left: 20px;
 }
-section h1{
+section h1 {
   color: #FEFAE0 !important;
-  text-shadow:1px 1px 10px black;
+  text-shadow: 3px 3px 3px #000000;
 }
 .bg-custom{
   background-image: url(images/pozadina.jpg);
   height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .bg-custom1{
   color: #FEFAE0 !important;
@@ -47,20 +67,121 @@ section h1{
 .bg-custom2{
   color: #FEFAE0 !important;
   padding-left: 20px;
-  text-shadow:1px 1px 10px black;
+  text-shadow: 3px 3px 3px #000000;
+  font-size: 17pt;
   background-image: url(images/povijest.jpg);
-  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90vh;
 }
 .Povijest{
   font-size: 40pt;
 }
-section ul li i{
-  text-shadow:1px 1px 10px black !important;
+.card{
+  max-width: 300;
+  max-height: 200;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover{
+  transform: translateY(-5px);
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+.float-right{
+  border-radius: 30px;
+  height: 30vh !important;
+  float: right !important;
+}
+.bg-custom3{
+  background-color: #606C38;
+  margin-top: 60px;
+}
+#NaruciSobu{
+  font-size: 40pt;
+  font-weight: bolder;
+  color: #FEFAE0;
+}
+.sobice{
+  font-size: 16pt ;
+  color: #FEFAE0;
+}
+.NaruciNaslovi{
+  font-size: 35pt;
+  font-weight: bolder;
+  color: #FEFAE0;
+  margin-top: 60px;
+}
+.container1{
+  padding-top: 20px;
+}
+#kontaktbody{
+  overflow-x: hidden !important;
+}
+#link{
+  color: #FEFAE0;
+}
+#link:hover{
+  color: #e0d7b8ff !important;
+}
+.btn {
+  border: none !important;
+  background-color:#606C38 !important;
+}
+.btn:hover {
+  border: none !important;
+  color:#606C38 !important;
+  background-color: #e0d7b8ff !important;
+}
+#email{
+  width: 40%;
+}
+.koninfo{
+  font-size: 24pt;
+  font-weight: bold;
+  list-style: none;
+}
+.liinfo{
+  font-size: 16pt;
+  list-style: none;
+}
+.konikone{
+  color:#606C38 !important;
+}
+hr{
+  color: #FEFAE0;
 }
 footer{
   background-color: #606C38;
   color: #FEFAE0 !important;
+  padding: 20px 0;
+}
+footer a{
+  text-decoration: none;
+}
+.footikone, .footikone1{
+  color: #FEFAE0 !important;
+  padding: 5px;
+  font-size: 1.5rem;
+  transition: color 0.3s ease;
+}
+.footikone:hover, .footikone1:hover{
+  color: #e0d7b8ff !important;
+}
+h5 {
+  font-size: 1.2rem;
+  font-weight: bold;
 }
 
+
+@media (max-width: 768px) {
+  .bg-custom2 {
+    height: auto !important;
+    padding: 20px 0;
+  }
+  .float-right {
+    height: auto !important; 
+    max-width: 90%;
+  }
+}
 
 

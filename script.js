@@ -3,4 +3,9 @@ document.querySelectorAll('.carousel').forEach((carousel) => {
       window.scrollTo({ top: window.scrollY, behavior: 'instant' });
     });
   });
-  
+  $(function() {
+    $("#datepicker").datepicker({
+        dateFormat: "dd.mm.yy.",
+        showAnim: "fadeIn"
+    });
+});
