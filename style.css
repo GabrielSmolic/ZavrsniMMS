@@ -65,14 +65,20 @@ section h1 {
   height: 22vh;
 }
 .bg-custom2{
-  color: #FEFAE0 !important;
-  padding-left: 20px;
-  text-shadow: 3px 3px 3px #000000;
-  font-size: 17pt;
+
   background-image: url(images/povijest.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 90vh;
+}
+.savtekstic{
+  color: #FEFAE0 !important;
+  text-shadow: 3px 3px 3px #000000;
+  font-size: 17pt;
+}
+.podnaslov{
+  color: #FEFAE0 !important;
+  text-shadow: 3px 3px 3px #000000;
 }
 .Povijest{
   font-size: 40pt;
@@ -105,6 +111,7 @@ section h1 {
   font-size: 16pt ;
   color: #FEFAE0;
 }
+
 .NaruciNaslovi{
   font-size: 35pt;
   font-weight: bolder;
@@ -128,6 +135,12 @@ section h1 {
 }
 #link:hover{
   color: #e0d7b8ff !important;
+}
+.accordion-button:focus {
+  box-shadow: none !important; 
+}
+.accordion-button:not(.collapsed) {
+  background-color: #606c3893 !important;
 }
 .boja{
   background-color: #FEFAE0 !important;

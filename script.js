@@ -8,3 +8,7 @@ document.querySelectorAll('.carousel').forEach((carousel) => {
   $( function() {
     $( "#datepicker" ).datepicker();
   } );
+
+  $( function() {
+    $( "#datepicker1" ).datepicker();
+  } );
